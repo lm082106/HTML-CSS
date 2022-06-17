@@ -1,0 +1,3 @@
+HTML é uma linguagem focada em conteudo(texto,imagem, video, tabela, listas)
+CSS a focada em design(cores, formas, posicionamento, sombras)
+JavaScript responsavel pelas interações(menus, popups, interações, validações)

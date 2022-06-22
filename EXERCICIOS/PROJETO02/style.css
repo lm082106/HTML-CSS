@@ -16,14 +16,18 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgrey;
+    background-color: rgb(59, 48, 48);
     font-family: var(--fonte002)
 }
 
 header {
     background-color: black;
     color: white;
-    text-align: center
+    text-align: center;
+    background-image: url(beautiful-shot-rocky-mountains-covered-with-white-snow.jpg);
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header > h1 {
@@ -55,7 +59,7 @@ section {
 }
 
 section.normal {
-    background-color: white;
+    background-color: rgb(207, 206, 206);
     color: black;
 }
 

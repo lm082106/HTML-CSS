@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+body {
+    background: url('../projetox/imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 311px;
+    background: url(../projetox/imagens/frame-iphone.png) no-repeat center;
+    background-size: 35vh;
+}
+
+section#fundo-telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 327px;
+    width: 185px;
+    background: url(../projetox/imagens/tela-home.jpg) no-repeat center;
+    background-size: cover;
+}

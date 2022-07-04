@@ -1,0 +1,124 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+body{
+    background-image: url(assets/young-successful-businessman-correcting-tie.jpg);
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 45px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+span{
+    color: #f9004d;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul li{
+    display: inline-block;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+button{
+    margin-right: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Acme', sans-serif;
+    font-weight: 600;
+    background-color: #f9004d;
+    color: white;
+    cursor: pointer;
+    transition: .8s;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0px 0px 15px #858585;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-weight: 600;
+    transition: .6s;
+}
+
+header ul li a:hover{
+    color: #f9004d;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+h3{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+h4{
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Acme', sans-serif;
+    color: #fff;
+    position: relative;
+}
+
+footer input{
+    display: inline-block;
+    right: 15px;   
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    width: 300px;
+    height: 45px;
+    outline: none;
+    box-shadow: 0px 0px 15px #858585;
+}
+
+footer button{
+    border-radius: 15px;
+    height: 40px;
+    top: 3px;
+    left: 220px;
+    display: flex;
+    display: inline-block;
+    position: absolute;
+}

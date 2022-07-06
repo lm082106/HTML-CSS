@@ -118,7 +118,6 @@ footer button{
     height: 40px;
     top: 3px;
     left: 220px;
-    display: flex;
     display: inline-block;
     position: absolute;
 }

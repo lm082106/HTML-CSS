@@ -20,10 +20,24 @@ header > h1{
     text-align: center;
 }
 
-menu{
+i#bg{
+    background-color: rgb(48, 48, 48);
     display: block;
-    padding: 0px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
 
+i#bg:hover{
+    background-color: white;
+    color: black;
+
+}
+
+menu{
+    display: none;
+    padding: 0px;
+    align-items: center;
 }
 
 menu > ul{
